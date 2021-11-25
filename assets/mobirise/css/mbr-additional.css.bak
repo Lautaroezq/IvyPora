@@ -1402,6 +1402,9 @@ a {
     margin-bottom: 0.5rem;
     border-radius: 4px;
     background: #fafafa;
+    border-right: solid;
+    border-right-color: red;
+    border-right-width: thick;
 }
 .cid-sKVWsORkHs .card-wrapper .top-line {
   display: flex;

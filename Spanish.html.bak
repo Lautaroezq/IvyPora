@@ -767,65 +767,6 @@
     </div>
 
     </div>
-<div class="container">
-        <div class="row">
-            <div class="title col-12">
-                
-                <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 display-5">Sin Alcohol</h6>
-            </div>
-            <div class="card col-12 col-md-6">
-                <div class="card-wrapper">
-                    <div class="top-line">
-                        <h6 class="card-title mbr-fonts-style display-5">Gaseosas</h6>
-                        <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$150</p>
-                    </div>
-                    <div class="bottom-line">
-                        
-                    </div>
-                    <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">linea Coca-Cola
-</p>
-                </div>
-            </div>
-<div class="card col-12 col-md-6">
-                <div class="card-wrapper">
-                    <div class="top-line">
-                        <h6 class="card-title mbr-fonts-style display-5">Agua sin gas</h6>
-                        <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$120</p>
-                    </div>
-                    <div class="bottom-line">
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="card col-12 col-md-6">
-                <div class="card-wrapper">
-                    <div class="top-line">
-                        <h6 class="card-title mbr-fonts-style display-5">Agua con gas</h6>
-                        <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$120</p>
-                    </div>
-                    <div class="bottom-line">
-                        
-                    </div>
-                </div>
-            </div>
-            
-            
-            <div class="card col-12 col-md-6">
-                
-            </div>
-            
-            
-            <div class="card col-12 col-md-6">
-                
-            </div>
-            <div class="card col-12 col-md-6">
-                
-            </div>
-            
-            
-            
-        </div>
-    </div>
 <section data-bs-version="5.1" class="footer3 cid-sKVRIivYS1 mbr-reveal mbr-parallax-background" once="footers" id="footer3-4" style="z-index: 0; background-image: none; position: relative;">
 
     
