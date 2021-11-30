@@ -1,0 +1,1258 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css' rel='stylesheet'>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css' rel='stylesheet'>
+    <script type='text/javascript' src=''></script>
+    <title>Ivy Pora Menu Español</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="assets/parallax/jarallax.css">
+    <link rel="stylesheet" href="assets/animatecss/animate.css">
+    <link rel="stylesheet" href="assets/dropdown/css/style.css">
+    <link rel="stylesheet" href="assets/socicon/css/styles.css">
+    <link rel="stylesheet" href="assets/theme/css/style.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <link href="css/food-icon.css" rel="stylesheet" type="text/css">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap"></noscript>
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Bebas+Neue:400&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue:400&display=swap"></noscript>
+    <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
+    <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+
+        :root {
+            --header-height: 4rem;
+            --nav-width: 3.5rem;
+            --first-color: #F7F6FB;
+            --first-color-light: #f50000;
+            --white-color: #ff0000;
+            --body-font: 'Nunito', sans-serif;
+            --normal-font-size: 1rem;
+            --z-fixed: 50;
+        }
+
+        *,
+        ::before,
+        ::after {
+            box-sizing: border-box
+        }
+
+        body {
+            position: relative;
+            margin: var(--header-height) 0 0 0;
+            padding: 0 0rem;
+            font-family: var(--body-font);
+            font-size: var(--normal-font-size);
+            transition: .5s
+        }
+
+        a {
+            text-decoration: none
+        }
+
+        .header {
+            width: 100%;
+            height: var(--header-height);
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 1rem;
+            background-color: var(--white-color);
+            z-index: var(--z-fixed);
+            transition: .5s
+        }
+
+        .header_toggle {
+            color: var(--first-color);
+            font-size: 1.5rem;
+            cursor: pointer
+        }
+
+        .header_img {
+            width: 35px;
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            border-radius: 50%;
+            overflow: hidden
+        }
+
+        .bx-x:before {
+            padding: 1rem;
+        }
+
+        .header_img img {
+            width: 40px
+        }
+
+        .l-navbar {
+            position: fixed;
+            top: 0;
+            left: -30%;
+            width: var(--nav-width);
+            height: 100vh;
+            background-image: url(assets/images/nav.jpg);
+            background-color: #cccccc;
+            background-size: 220px;
+            background-position-x: center;
+            padding: 1rem 0rem 0 0;
+            transition: .5s;
+            z-index: var(--z-fixed)
+        }
+
+        .nav {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            overflow: hidden
+        }
+
+        .nav_logo,
+        .nav_link {
+            display: grid;
+            grid-template-columns: max-content max-content;
+            align-items: center;
+            column-gap: 1rem;
+            padding: 0rem 0 0.5rem 1rem
+        }
+
+        .features7 {
+            padding: 0rem
+        }
+
+        .nav_logo {
+            margin-bottom: 2rem
+        }
+
+        .nav_logo-icon {
+            font-size: 1.25rem;
+            color: var(--white-color)
+        }
+
+        .nav_logo-name {
+            color: var(--white-color);
+            font-weight: 700
+        }
+
+        .nav_link {
+            position: relative;
+            color: #ffffff;
+            margin-bottom: 1.5rem;
+            transition: 1.3s
+        }
+
+            .nav_link:hover {
+                color: var(--white-color)
+            }
+
+        .nav_icon {
+            font-size: 1.25rem
+        }
+
+        .show {
+            left: 0
+        }
+
+        .body-pd {
+            padding-left: calc(var(--nav-width) + 0rem)
+        }
+
+        .active {
+            color: #fbff00
+        }
+
+            .active::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                width: 4px;
+                height: 30px;
+                background-color: var(--white-color)
+            }
+
+        .height-100 {
+            height: 100vh
+        }
+
+        .mb-4 {
+            font-weight: 500;
+            color: red;
+        }
+
+        .row {
+            --bs-gutter-x: 0;
+            --bs-gutter-y: 0;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: calc(var(--bs-gutter-y) * -1);
+            margin-right: calc(var(--bs-gutter-x)/ -2);
+            margin-left: calc(var(--bs-gutter-x)/ -2);
+        }
+
+        .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+            width: 100%;
+            padding-right: var(--bs-gutter-x,0);
+            padding-left: var(--bs-gutter-x,0rem);
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .display-5 {
+            font-size: calc(1.425rem + 2.1vw);
+            font-weight: 400;
+            line-height: 1.2;
+        }
+
+        .divisores {
+            font-size: calc(1.425rem + 2.1vw);
+            font-weight: 400;
+            line-height: 1.2;
+            font-family: 'Bebas Neue';
+            background-image: url(assets/images/divisor.jpg);
+            background-color: #cccccc;
+            background-size: 400px;
+            background-position-x: center;
+            font-size: 43px;
+            -webkit-text-stroke-width: 0.5px;
+            -webkit-text-stroke-color: #282828;
+            -webkit-text-fill-color: #ffffff;
+            text-shadow: 3px 3px 0px #000000;
+            padding: 1rem;
+        }
+
+        .divisores2 {
+            font-size: calc(1.425rem + 2.1vw);
+            font-weight: 400;
+            line-height: 1.2;
+            font-family: 'Bebas Neue';
+            font-size: 43px;
+            -webkit-text-stroke-width: 0.5px;
+            -webkit-text-stroke-color: #282828;
+            -webkit-text-fill-color: #ffffff;
+            text-shadow: 3px 3px 0px #000000;
+            padding: 1rem;
+        }
+
+        .navdivisor {
+            font-size: calc(1.425rem + 2.1vw);
+            font-weight: 400;
+            font-family: "Bebas Neue";
+            line-height: 1.2;
+            font-size: 43px;
+            -webkit-text-stroke-width: 0.5px;
+            -webkit-text-stroke-color: #282828;
+            -webkit-text-fill-color: #ffffff;
+            text-shadow: 3px 3px 0px #000000;
+        }
+
+        .card-title {
+            margin-bottom: 1rem;
+        }
+
+        .card {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 0px solid rgba(0,0,0,.125);
+            border-radius: 0;
+        }
+
+        @media screen and (min-width: 768px) {
+            body {
+                margin: calc(var(--header-height) + 1rem) 0 0 0;
+                padding-left: calc(var(--nav-width) + 0rem)
+            }
+
+            .header {
+                height: calc(var(--header-height) + 1rem);
+                padding: 0 2rem 0 calc(var(--nav-width) + 2rem)
+            }
+
+            .header_img {
+                width: 40px;
+                height: 40px
+            }
+
+                .header_img img {
+                    width: 45px
+                }
+
+            .l-navbar {
+                left: 0;
+                padding: 1rem 1rem 0 0
+            }
+
+            .show {
+                width: calc(var(--nav-width) + 156px)
+            }
+
+            .body-pd {
+                padding-left: calc(var(--nav-width) + 188px)
+            }
+        }
+    </style>
+</head>
+<body oncontextmenu='return false' class='snippet-body'>
+    <body id="body-pd">
+        <header class="header" id="header">
+            <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i></div>
+        </header>
+        <div class="l-navbar" id="nav-bar">
+            <nav class="nav">
+                <div class="nav_list">
+                    <a href="index.html" class="nav_link active"> <i class='bx bx-arrow-back nav_icon'></i> <span class="nav_name">Inicio</span> </a>
+                    <a href="#A1" class="nav_link active"> <i class='bx bxs-dish nav_icon'></i> <span class="nav_name">Almuerzo de 3 pasos</span> </a>
+                    <a href="#A2" class="nav_link"> <i class='las la-bread-slice nav_icon'></i> <span class="nav_name">Sandwiches</span> </a>
+                    <a href="#A3" class="nav_link"> <i class='bx bxs-pizza nav_icon'></i> <span class="nav_name">Pizzas de masa madre</span></a>
+                    <a href="#A4" class="nav_link"> <i class='bx bxs-food-menu nav_icon'></i> <span class="nav_name">Arma Tu Tapeo</span> </a>
+                    <a href="#A5" class="nav_link"> <i class='bx bxs-cake nav_icon'></i> <span class="nav_name">Combos de Desayunos</span> </a>
+                    <a href="#A6" class="nav_link"> <i class='bx bxs-cookie nav_icon'></i> <span class="nav_name">Endulza tu mañana</span> </a>
+                    <a href="#A7" class="nav_link"> <i class='bx bxs-food-menu nav_icon'></i> <span class="nav_name">Saladitos</span> </a>
+                    <a href="#A8" class="nav_link"> <i class='las la-ice-cream nav_icon'></i> <span class="nav_name">Postres</span> </a>
+                    <a href="#A9" class="nav_link"> <i class='bx bxs-coffee nav_icon'></i> <span class="nav_name">Cafe</span> </a>
+                    <a href="#A10" class="nav_link"> <i class='las la-mug-hot nav_icon'></i> <span class="nav_name">Te</span> </a>
+                    <a href="#A11" class="nav_link"> <i class='las la-wine-bottle nav_icon'></i> <span class="nav_name">Sin Alcohol</span> </a>
+                    <a href="#A12" class="nav_link"> <i class='las la-blender'></i> <span class="nav_name">Jugos de la casa</span> </a>
+                    <a href="#A13" class="nav_link"> <i class='las la-cocktail'></i> <span class="nav_name">Tragos</span> </a>
+                    <a href="#A14" class="nav_link"> <i class='las la-wine-glass-alt'></i> <span class="nav_name">Vinos</span> </a>
+
+                </div>
+            </nav>
+        </div>
+        </body>
+        </body>
+        <!--Container Main start-->
+        <section data-bs-version="5.1" class="features7 cid-sKVWsORkHs">
+
+            <div class="container">
+                <div class="row">
+                    <div class="title col-12" id="A1">
+
+                        <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 divisores">
+                            Almuerzo de 3 pasos Ivy Pora (2 Personas)
+                        </h6>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Tabla de la casa con conservas del chef</h6>
+
+                            </div>
+                            <div class="bottom-line">
+                                <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">pickles, sopa paraguaya, mbeju, payaguá mascada.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Principal Yvyra pe</h6>
+
+                            </div>
+                            <div class="bottom-line">
+                                <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">
+                                    sandwich BLt (panceta, lechuga, tomate) y pizzeta de masa madre "La blanca".
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Camellia Sinensis</h6>
+
+                            </div>
+                            <div class="bottom-line">
+                                <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">
+                                    Mousse helada de te chai, con red velvet relleno de coulis de moras.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-wrapper">
+                        <div class="top-line">
+                            <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$1650</p>
+
+                        </div>
+                        <div class="bottom-line">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-bs-version="5.1" class="features7 cid-sKVWsORkHs" id="A2">
+            <!---->
+            <div class="container">
+                <div class="row">
+                    <div class="title col-12">
+                        <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 divisores">
+                            Sandwiches
+                        </h6>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">BLT</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$600</p>
+                            </div>
+                            <div class="bottom-line">
+                                <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">tomates confitados, lechuga y hojas de berro, panceta, vinagreta de frutos de monte yerba mate.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Mini Burguer</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$450</p>
+                            </div>
+                            <div class="bottom-line">
+                                <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">
+                                    bondiola braseada, pepinillos, escamas de queso.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-bs-version="5.1" class="features7 cid-sKW2rRVaDV" id="A3">
+            <div class="container">
+                <div class="row">
+                    <div class="title col-12">
+                        <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 divisores">
+                            Pizzas de masa madre
+                        </h6>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Consultar opciónes del día</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$450</p>
+                            </div>
+                            <div class="bottom-line">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-bs-version="5.1" class="features7 cid-sKW38rZ7Li" id="A4">
+            <div class="container">
+                <div class="row">
+                    <div class="title col-12">
+
+                        <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 divisores">
+                            Arma Tu Tapeo
+                        </h6><div class="bottom-line">
+                            <p class="mbr-text mbr-fonts-style display-9 animate__animated animate__delay-1s animate__fadeInUp">(CONSULTAR POR SALSAS)</p>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">2 porciones de sopa paraguaya</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$100</p>
+                            </div>
+                            <div class="bottom-line">
+                                <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Mbeyu (8 porciones)</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$250</p>
+                            </div>
+                            <div class="bottom-line">
+                                <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay2s animate__fadeInUp">
+                                    tortilla hecha con almidón de mandioca y queso.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Payaguá mascada</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">
+                                    $100
+
+                                </p>
+                            </div>
+                            <div class="bottom-line">
+                                <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">
+                                    croqueta preparada a base de mandioca, carne vacuna y cebollita de verdeo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Escabeches</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$100</p>
+                            </div>
+                            <div class="bottom-line">
+                                <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-bs-version="5.1" class="features7 cid-sKW4I8PCtI" id="A5">
+            <div class="container">
+                <div class="row">
+                    <div class="title col-12">
+                        <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 divisores">Combos de Desayunos</h6>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Clasico</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$470</p>
+                            </div>
+                            <div class="bottom-line">
+                                <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">café o té c/leche, tostadas con queso crema y mermelada y jugo de naranjas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Ingles</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$450</p>
+                            </div>
+                            <div class="bottom-line">
+                                <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">
+                                    té a elección, tarta del día y juguito de naranja.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Americano</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$500</p>
+                            </div>
+                            <div class="bottom-line">
+                                <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">
+                                    cafe c/leche, tostadas con huevo revuelto y palta y jugo a elección.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-bs-version="5.1" class="features7 cid-sKW6mzLp5A" id="A6">
+            <!---->
+            <div class="container">
+                <div class="row">
+                    <div class="title col-12">
+                        <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 divisores">Endulza tu mañana</h6>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Tarta del día</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$300</p>
+                            </div>
+                            <div class="bottom-line">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Lemon pie</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$250</p>
+                            </div>
+                            <div class="bottom-line">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Cheesecake de frutos rojos</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$300</p>
+                            </div>
+                            <div class="bottom-line">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Coco con dulce de leche</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$275</p>
+                            </div>
+                            <div class="bottom-line">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Apple pie</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$300</p>
+                            </div>
+                            <div class="bottom-line">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Crumble de higos</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$300</p>
+                            </div>
+                            <div class="bottom-line">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Waffles de dulce de leche y Frutas frescas</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$300</p>
+                            </div>
+                            <div class="bottom-line">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Porción de budín</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$200</p>
+                            </div>
+                            <div class="bottom-line">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">
+                                    Cupcake
+                                </h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$200</p>
+                            </div>
+                            <div class="bottom-line">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-bs-version="5.1" class="features7 cid-sKW5f35ERh" id="A7">
+            <div class="container">
+                <div class="row">
+                    <div class="title col-12">
+                        <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 divisores">Saladitos</h6>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Tostados de jamón y queso</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$350</p>
+                            </div>
+                            <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">(Consultar por pan Brioche o de Leche)</p>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Tostaditas de masa madre</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$250</p>
+                            </div>
+                            <div class="bottom-line">
+                                <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">(Consultar mermeladas y dulces)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Chipitas</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$250</p>
+                            </div>
+                            <div class="bottom-line">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-bs-version="5.1" class="features7 cid-sKW6PAIEcF" id="A8">
+            <div class="container">
+                <div class="row">
+                    <div class="title col-12">
+
+                        <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 divisores">Postres</h6>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Camellia Sinensis</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$400</p>
+                            </div>
+                            <div class="bottom-line">
+                                <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">mousse helada de te chai, con red velvet relleno de coulis de moras.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Flan</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$250</p>
+                            </div>
+                            <div class="bottom-line">
+                                <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">
+                                    natilla fría preparada con huevos, leche y azúcar.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Brownie c/chantilly</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$300</p>
+                            </div>
+                            <div class="bottom-line">
+                                <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Apple pie c/bocha de helado</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$300</p>
+                            </div>
+                            <div class="bottom-line">
+                                <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Postre vigilante misionero</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$350</p>
+                            </div>
+                            <div class="bottom-line">
+                                <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">
+                                    queso y mamón en almíbar.
+                                    (Consultar degustacion de quesos)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-bs-version="5.1" class="features7 cid-sKW8Nlis3P" id="A9">
+            <div class="container">
+                <div class="row">
+                    <div class="title col-12">
+                        <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 divisores">CAFE</h6>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Expresso</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$150</p>
+                            </div>
+                            <div class="bottom-line">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Americano</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$150</p>
+                            </div>
+                            <div class="bottom-line">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Cortado</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$150</p>
+                            </div>
+                            <div class="bottom-line">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">
+                                    Cafe c/leche
+                                </h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$200</p>
+                            </div>
+                            <div class="bottom-line">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Submarino </h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$250</p>
+                            </div>
+                            <div class="bottom-line">
+                            </div>
+                            <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">
+                                (leche caliente con una tableta de chocolate de taza)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Cappuccino</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$250</p>
+                            </div>
+                            <div class="bottom-line">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">
+                                    Latte machiatto
+                                </h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$250</p>
+                            </div>
+                            <div class="bottom-line">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                    </div>
+                    <div class="card col-12 col-md-6">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="title col-12">
+
+                            <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 divisores" id="A10">TE</h6>
+                        </div>
+                        <div class="card col-12 col-md-6">
+                            <div class="card-wrapper">
+                                <div class="top-line">
+                                    <h6 class="card-title mbr-fonts-style display-5">PUROS</h6>
+                                    <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$200</p>
+                                </div>
+                                <div class="bottom-line">
+
+                                </div>
+                                <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">
+                                    (negro, verde, azul)
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card col-12 col-md-6">
+                            <div class="card-wrapper">
+                                <div class="top-line">
+                                    <h6 class="card-title mbr-fonts-style display-5">Blends</h6>
+                                    <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$200</p>
+                                </div>
+                                <div class="bottom-line">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card col-12 col-md-6">
+                            <div class="card-wrapper">
+                                <div class="top-line">
+                                    <h6 class="card-title mbr-fonts-style display-5">Tisanas</h6>
+                                    <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$200</p>
+                                </div>
+                                <div class="bottom-line">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card col-12 col-md-6">
+                            <div class="card-wrapper">
+                                <div class="top-line">
+                                    <h6 class="card-title mbr-fonts-style display-5">Ice Tea</h6>
+                                    <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$200</p>
+                                </div>
+                                <div class="bottom-line">
+
+                                </div>
+                                <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">
+                                    te negro o verde helado
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card col-12 col-md-6">
+
+                        </div>
+                        <div class="card col-12 col-md-6">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="title col-12">
+
+                        <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 divisores" id="A11">Sin Alcohol</h6>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Gaseosas</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$150</p>
+                            </div>
+                            <div class="bottom-line">
+
+                            </div>
+                            <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">
+                                linea Coca-Cola
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Agua sin gas</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$120</p>
+                            </div>
+                            <div class="bottom-line">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6">
+                        <div class="card-wrapper">
+                            <div class="top-line">
+                                <h6 class="card-title mbr-fonts-style display-5">Agua con gas</h6>
+                                <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$120</p>
+                            </div>
+                            <div class="bottom-line">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="title col-12">
+                            <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 divisores" id="A12">Jugos de la casa</h6>
+                        </div>
+                        <div class="card col-12 col-md-6">
+                            <div class="card-wrapper">
+                                <div class="top-line">
+                                    <h6 class="card-title mbr-fonts-style display-5">Limonada  rapadura  menta</h6>
+                                    <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$150</p>
+                                </div>
+                                <div class="bottom-line">
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card col-12 col-md-6">
+                            <div class="card-wrapper">
+                                <div class="top-line">
+                                    <h6 class="card-title mbr-fonts-style display-5">Limonada de maracuya</h6>
+                                    <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$120</p>
+                                </div>
+                                <div class="bottom-line">
+
+                                </div>
+                            </div>
+                        </div><div class="card col-12 col-md-6">
+                            <div class="card-wrapper">
+                                <div class="top-line">
+                                    <h6 class="card-title mbr-fonts-style display-5">
+                                        Frutilla  Banana  Naranja
+                                    </h6>
+                                    <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$120</p>
+                                </div>
+                                <div class="bottom-line">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card col-12 col-md-6">
+                            <div class="card-wrapper">
+                                <div class="top-line">
+                                    <h6 class="card-title mbr-fonts-style display-5">
+                                        Manzana Maracuya Naranja
+                                    </h6>
+                                    <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$120</p>
+                                </div>
+                                <div class="bottom-line">
+
+                                </div>
+                            </div>
+                        </div><div class="card col-12 col-md-6">
+                            <div class="card-wrapper">
+                                <div class="top-line">
+                                    <h6 class="card-title mbr-fonts-style display-5">Lassi de melon</h6>
+                                    <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$150</p>
+                                </div>
+                                <div class="bottom-line">
+
+                                </div>
+                                <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">(melon, leche de coco, miel, especias)</p>
+                            </div>
+                        </div>
+
+                        <div class="card col-12 col-md-6">
+                            <div class="card-wrapper">
+                                <div class="top-line">
+                                    <h6 class="card-title mbr-fonts-style display-5">
+                                        Jugo exprimido de naranja
+                                    </h6>
+                                    <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$120</p>
+                                </div>
+                                <div class="bottom-line">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="title col-12">
+                                <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 divisores" id="A13">Tragos</h6>
+                            </div>
+                            <div class="card col-12 col-md-6">
+                                <div class="card-wrapper">
+                                    <div class="top-line">
+                                        <h6 class="card-title mbr-fonts-style display-5">Gin Misionero</h6>
+                                        <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$400</p>
+                                    </div>
+                                    <div class="bottom-line">
+
+                                    </div>
+                                    <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">(Gin Principe de los Apostoles, almibar de yerba mate, agua tonica)</p>
+                                </div>
+                            </div>
+                            <div class="card col-12 col-md-6">
+                                <div class="card-wrapper">
+                                    <div class="top-line">
+                                        <h6 class="card-title mbr-fonts-style display-5">Tonic clasico</h6>
+                                        <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$320</p>
+                                    </div>
+                                    <div class="bottom-line">
+
+                                    </div>
+                                    <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">(Gin, agua tonica, a eleccion pepino, citricos o frutos rojos)</p>
+                                </div>
+                            </div>
+                            <div class="card col-12 col-md-6">
+                                <div class="card-wrapper">
+                                    <div class="top-line">
+                                        <h6 class="card-title mbr-fonts-style display-5">Ferroviario</h6>
+                                        <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$320</p>
+                                    </div>
+                                    <div class="bottom-line">
+
+                                    </div>
+                                    <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">(Vermouth rosso, fernet y soda)</p>
+                                </div>
+                            </div>
+                            <div class="card col-12 col-md-6">
+                                <div class="card-wrapper">
+                                    <div class="top-line">
+                                        <h6 class="card-title mbr-fonts-style display-5">Chill</h6>
+                                        <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$300</p>
+                                    </div>
+                                    <div class="bottom-line">
+
+                                    </div>
+                                    <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">(vermouth bianco, almibar de pomelo, agua tonica)</p>
+                                </div>
+                            </div>
+                            <div class="card col-12 col-md-6">
+                                <div class="card-wrapper">
+                                    <div class="top-line">
+                                        <h6 class="card-title mbr-fonts-style display-5">Caipis</h6>
+                                        <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$320</p>
+                                    </div>
+                                    <div class="bottom-line">
+
+                                    </div>
+                                    <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">(cachaza o vodka, lima, frutilla o maracuya)</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="title col-12">
+                                    <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 divisores" id="A14">Vinos</h6>
+                                </div>
+                                <div class="card col-12 col-md-6">
+                                    <div class="card-wrapper">
+                                        <div class="top-line">
+                                            <h6 class="card-title mbr-fonts-style display-5">Finca Las Moras Malbec</h6>
+                                            <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$300</p>
+                                        </div>
+                                        <div class="bottom-line">
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="card col-12 col-md-6">
+                                    <div class="card-wrapper">
+                                        <div class="top-line">
+                                            <h6 class="card-title mbr-fonts-style display-5">Trumpeter Malbec</h6>
+                                            <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$900</p>
+                                        </div>
+                                        <div class="bottom-line">
+
+                                        </div>
+                                    </div>
+                                </div><div class="card col-12 col-md-6">
+                                    <div class="card-wrapper">
+                                        <div class="top-line">
+                                            <h6 class="card-title mbr-fonts-style display-5">Luigi Bosca Malbec</h6>
+                                            <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$1150</p>
+                                        </div>
+                                        <div class="bottom-line">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card col-12 col-md-6">
+                                    <div class="card-wrapper">
+                                        <div class="top-line">
+                                            <h6 class="card-title mbr-fonts-style display-5">Rutini Cabernet Sauvignon</h6>
+                                            <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$2000</p>
+                                        </div>
+                                        <div class="bottom-line">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card col-12 col-md-6">
+                                    <div class="card-wrapper">
+                                        <div class="top-line">
+                                            <h6 class="card-title mbr-fonts-style display-5">Famiglia Bianchi Cabernet Sauvignon</h6>
+                                            <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp">$2900</p>
+                                        </div>
+                                        <div class="bottom-line">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card col-12 col-md-6">
+                                    <div class="card-wrapper">
+                                        <div class="top-line">
+                                            <h6 class="card-title mbr-fonts-style display-5">Vinos Blancos</h6>
+                                            <p class="mbr-text cost mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeInUp"></p>
+                                        </div>
+                                        <div class="bottom-line">
+
+                                        </div>
+                                        <p class="mbr-text mbr-fonts-style display-7 animate__animated animate__delay-1s animate__fadeInUp">(Consultar Carta de vinos blancos)</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <section data-bs-version="5.1" class="footer3 cid-sKVRIivYS1 mbr-reveal mbr-parallax-background" once="footers" id="footer3-4" style="z-index: 0; background-image: none; position: relative;">
+                                <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(0, 0, 0);"></div>
+                                <div class="container-fluid">
+                                    <div class="media-container-row align-center mbr-white">
+                                        <div class="row row-copirayt">
+                                            <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center divisores2 animate__animated animate__delay-1s animate__fadeInUp">
+                                                © Copyright 2021 Ivy Pora.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </body>
+                                <div id="jarallax-container-0" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100;"><div style="background-position: 50% 50%;background-size: auto;background-repeat: round;background-image: url(&quot;assets/images/nav.jpg&quot;);position: absolute;top: 17px;left: 0px;width:-webkit-fill-available;height: 195.478px;overflow: visible;pointer-events: none;transform-style: preserve-3d;backface-visibility: hidden;will-change: transform, opacity;margin-top: 416.261px;transform: translate3d(0px, -433.511px, 0px);"></div></div><a href="https://mobirise.site/u">
+                                    <a = class="animate__animated animate__delay-1s animate__fadeInUp"></a>
+                                </a><a href="https://mobirise.site/s" class="animate__animated animate__delay-1s animate__fadeInUp"></a>
+                                <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+                                <script src="assets/parallax/jarallax.js"></script>
+                                <script src="assets/smoothscroll/smooth-scroll.js"></script>
+                                <script src="assets/ytplayer/index.js"></script>
+                                <script src="assets/theme/js/script.js"></script>
+
+                                </a><div id="scrollToTop" class="scrollToTop mbr-arrow-up" style="display: block; opacity: 1;"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
+                                <!--Container Main end-->
+                                <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js'></script>
+                                <script type='text/javascript' src=''></script>
+                                <script type='text/javascript' src=''></script>
+                                <script type='text/Javascript'>
+                                    document.addEventListener("DOMContentLoaded", function (event) {
+
+                                        const showNavbar = (toggleId, navId, bodyId, headerId) => {
+                                            const toggle = document.getElementById(toggleId),
+                                                nav = document.getElementById(navId),
+                                                bodypd = document.getElementById(bodyId),
+                                                headerpd = document.getElementById(headerId)
+
+                                            // Validate that all variables exist
+                                            if (toggle && nav && bodypd && headerpd) {
+                                                toggle.addEventListener('click', () => {
+                                                    // show navbar
+                                                    nav.classList.toggle('show')
+                                                    // change icon
+                                                    toggle.classList.toggle('bx-x')
+                                                    // add padding to body
+                                                    bodypd.classList.toggle('body-pd')
+                                                    // add padding to header
+                                                    headerpd.classList.toggle('body-pd')
+                                                })
+                                            }
+                                        }
+
+                                        showNavbar('header-toggle', 'nav-bar', 'body-pd', 'header')
+
+                                        /*===== LINK ACTIVE =====*/
+                                        const linkColor = document.querySelectorAll('.nav_link')
+
+                                        function colorLink() {
+                                            if (linkColor) {
+                                                linkColor.forEach(l => l.classList.remove('active'))
+                                                this.classList.add('active')
+                                            }
+                                        }
+                                        linkColor.forEach(l => l.addEventListener('click', colorLink))
+
+                                        // Your code to run since DOM is loaded and ready
+                                    });</script>
+</html>
